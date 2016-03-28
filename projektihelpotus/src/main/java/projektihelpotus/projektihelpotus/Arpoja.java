@@ -27,7 +27,7 @@ public class Arpoja {
         ArrayList<String> aiheet = new ArrayList<>();
         Collections.addAll(aiheet, "fraktaaligeneraattori", "drinkkikone", "DNA-ketjujen tutkija", "Tetris", "Space Invaders");
         
-        System.out.println("Kohtalosi on tämä: ");
+        System.out.println("Aiheesi on tämä: ");
         for (String aihe : aiheet) {
             String lopullinenAihe = "aihe"; // tänne tehtailen parhaillaan itse arvontamekanismia
             
