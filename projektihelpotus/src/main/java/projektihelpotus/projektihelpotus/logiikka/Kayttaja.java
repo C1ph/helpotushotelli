@@ -13,7 +13,7 @@ public class Kayttaja {
 
     private String tunnus;
     private String salasana;
-    private Rooli rooli;
+    private String rooli;
 
 
     public Kayttaja(String tunnus, String salasana) {
@@ -21,7 +21,7 @@ public class Kayttaja {
         this.salasana = salasana;
     }
 
-    public Kayttaja(String tunnus, String salasana, Rooli rooli) {
+    public Kayttaja(String tunnus, String salasana, String rooli) {
         this.tunnus = tunnus;
         this.salasana = salasana;
         this.rooli = rooli;
@@ -42,7 +42,7 @@ public class Kayttaja {
         return tunnus;
     }
 
-    public Enum getRooli() {
+    public String getRooli() {
         return rooli;
     }
 
