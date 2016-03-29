@@ -29,6 +29,7 @@ public class Arpoja {
         Collections.addAll(aiheet, "fraktaaligeneraattori", "drinkkikone", "DNA-ketjujen tutkija", "Tetris", "Space Invaders");
         
         for (String aihe : aiheet) {
+            Collections.shuffle(aiheet);
             String lopullinenAihe = "aihe"; // tänne tehtailen parhaillaan itse arvontamekanismia
             System.out.println(aihe);
         }

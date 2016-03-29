@@ -10,17 +10,14 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import projektihelpotus.projektihelpotus.logiikka.Arpoja;
 
 /**
  *
  * @author omistaja
  */
-public class Testit {
+public class ArpojaTest {
     
-    Arpoja arpoja;
-    
-    public Testit() {
+    public ArpojaTest() {
     }
     
     @BeforeClass
@@ -33,12 +30,15 @@ public class Testit {
     
     @Before
     public void setUp() {
-        arpoja = new Arpoja();
     }
     
     @After
     public void tearDown() {
     }
 
-    // upp-dejttausta luvassa tänne näin
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    //
+    // @Test
+    // public void hello() {}
 }
