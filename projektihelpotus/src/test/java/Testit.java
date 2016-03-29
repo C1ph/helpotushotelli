@@ -10,12 +10,15 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import projektihelpotus.projektihelpotus.logiikka.Arpoja;
 
 /**
  *
  * @author omistaja
  */
 public class Testit {
+    
+    Arpoja arpoja;
     
     public Testit() {
     }
@@ -30,6 +33,7 @@ public class Testit {
     
     @Before
     public void setUp() {
+        arpoja = new Arpoja();
     }
     
     @After

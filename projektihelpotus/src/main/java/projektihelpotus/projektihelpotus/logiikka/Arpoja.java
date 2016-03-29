@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projektihelpotus.projektihelpotus;
+package projektihelpotus.projektihelpotus.logiikka;
 
 /**
  *
@@ -16,8 +16,9 @@ public class Arpoja {
     private Random random;
     private String aihe;
     
-    public String arvoAihe () {
-        return aihe;
+    public Arpoja () {
+        this.random = random;
+        this.aihe = "";
     }
     
     public static void main(String[] args) {
@@ -27,11 +28,9 @@ public class Arpoja {
         ArrayList<String> aiheet = new ArrayList<>();
         Collections.addAll(aiheet, "fraktaaligeneraattori", "drinkkikone", "DNA-ketjujen tutkija", "Tetris", "Space Invaders");
         
-        System.out.println("Aiheesi on tämä: ");
         for (String aihe : aiheet) {
             String lopullinenAihe = "aihe"; // tänne tehtailen parhaillaan itse arvontamekanismia
-            
-            System.out.println(lopullinenAihe);
+            System.out.println(aihe);
         }
     }
 }
