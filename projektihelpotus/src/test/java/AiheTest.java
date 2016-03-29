@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author omistaja
  */
-public class ArpojaTest {
+public class AiheTest {
     
-    public ArpojaTest() {
+    public AiheTest() {
     }
     
     @BeforeClass
@@ -36,5 +36,5 @@ public class ArpojaTest {
     public void tearDown() {
     }
 
-    // settiä tänne
+    // ja vielä lisää
 }

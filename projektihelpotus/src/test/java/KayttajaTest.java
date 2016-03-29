@@ -11,6 +11,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import projektihelpotus.projektihelpotus.logiikka.Arpoja;
+import projektihelpotus.projektihelpotus.logiikka.Kayttaja;
 
 /**
  *
@@ -19,6 +20,7 @@ import projektihelpotus.projektihelpotus.logiikka.Arpoja;
 public class KayttajaTest {
     
     Arpoja arpoja;
+    Kayttaja kayttaja;
     
     public KayttajaTest() {
     }
@@ -40,5 +42,24 @@ public class KayttajaTest {
     public void tearDown() {
     }
 
-    // upp-dejttausta luvassa tänne näin
+    @Test
+    public void konstruktoriAsettaaKayttajanOikein() { // build ei valmis
+        Kayttaja mealy = new Kayttaja();
+        String vastaus = kayttaja.getKayttajaTunnus(); 
+        assertEquals("mealy", vastaus.toString());
+    }
+       
+    @Test
+    public void konstruktoriAsettaaSalasananOikein() { // build ei valmis
+        String salasana = "ananastenmaa";
+        String vastaus = kayttaja.getSalasana(); 
+        assertEquals("ananastenmaa", vastaus.toString());
+    }
+    
+    @Test
+    public void konstruktoriAsettaaRoolinOikein() { // build ei valmis
+        String rooli = "OPISKELIJA";
+        String vastaus = kayttaja.getRooli(); 
+        assertEquals("OPISKELIJA", vastaus.toString());
+    }
 }
