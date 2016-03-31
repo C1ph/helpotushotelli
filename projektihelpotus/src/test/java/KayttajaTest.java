@@ -18,48 +18,48 @@ import projektihelpotus.projektihelpotus.logiikka.Kayttaja;
  * @author omistaja
  */
 public class KayttajaTest {
-    
+
     Arpoja arpoja;
     Kayttaja kayttaja;
-    
+
     public KayttajaTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
-    public void setUp() {  
+    public void setUp() {
         arpoja = new Arpoja();
         kayttaja = new Kayttaja("ipi", "rumils", "pasunisti");
-        
+
     }
-    
+
     @After
     public void tearDown() {
     }
 
     @Test
     public void konstruktoriAsettaaKayttajanOikein() {
-        String vastaus = kayttaja.getKayttajaTunnus(); 
+        String vastaus = kayttaja.getKayttajaTunnus();
         assertEquals("ipi", vastaus);
     }
-    
+
     @Test
     public void konstruktoriAsettaaSalasananOikein() {
-        String vastaus = kayttaja.getSalasana(); 
+        String vastaus = kayttaja.getSalasana();
         assertEquals("rumils", vastaus);
     }
-    
+
     @Test
     public void konstruktoriAsettaaRoolinOikein() {
         String rooli = "pasunisti";
-        String vastaus = kayttaja.getRooli(); 
+        String vastaus = kayttaja.getRooli();
         assertEquals("pasunisti", vastaus);
     }
 }

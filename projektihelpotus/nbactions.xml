@@ -10,7 +10,6 @@
 </actions>
 
 <actions> 
-    ...
     <action>
         <actionName>CUSTOM-checkstyle</actionName>
         <displayName>Checkstyle</displayName>
