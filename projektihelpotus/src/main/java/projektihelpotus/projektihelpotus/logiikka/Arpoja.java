@@ -12,26 +12,25 @@ package projektihelpotus.projektihelpotus.logiikka;
 import java.util.*;
 
 public class Arpoja {
-    
+
     private Random random;
     private String aihe;
-    
-    public Arpoja () {
+
+    public Arpoja() {
         this.random = random;
         this.aihe = "";
     }
-    
-    public static void main(String[] args) {
+
+    public void arvo() {
         Random arpoja = new Random();
-        int i = 0;
-        
         ArrayList<String> aiheet = new ArrayList<>();
         Collections.addAll(aiheet, "fraktaaligeneraattori", "drinkkikone", "DNA-ketjujen tutkija", "Tetris", "Space Invaders");
-        
-        for (String aihe : aiheet) {
-            Collections.shuffle(aiheet);
-            String lopullinenAihe = "aihe"; // tänne tehtailen parhaillaan itse arvontamekanismia
-            System.out.println(aihe);
-        }
+
+        int i = arpoja.nextInt(aiheet.size());
+        this.aihe = aiheet.get(i);
+        System.out.println(aihe);
     }
 }
+
+//            String lopullinenAihe = "aihe"; // tänne tehtailen parhaillaan itse arvontamekanismia
+

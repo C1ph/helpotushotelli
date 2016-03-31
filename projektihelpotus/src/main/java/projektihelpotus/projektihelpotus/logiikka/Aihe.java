@@ -9,6 +9,17 @@ package projektihelpotus.projektihelpotus.logiikka;
  *
  * @author omistaja
  */
+import java.util.*;
+
 public class Aihe {
+
+    private String aihe;
     
+    public Aihe () {
+        this.aihe = aihe;
+    }
+
+    public String getAihe() {
+        return aihe;
+    }
 }
