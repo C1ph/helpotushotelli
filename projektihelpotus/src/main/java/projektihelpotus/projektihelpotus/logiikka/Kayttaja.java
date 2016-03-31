@@ -26,10 +26,7 @@ public class Kayttaja {
         this.salasana = salasana;
         this.rooli = rooli;
     }
-
-    public Kayttaja() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+ 
 
     
     public enum Rooli {
@@ -61,13 +58,10 @@ public class Kayttaja {
 
     public void setSalasana(String salasana) {
         this.salasana = salasana;
-    }
-    
-    
+    }  
 
     @Override
     public String toString() {
         return "" + this.getKayttajaTunnus() +" " + this.getSalasana() +" " +this.getRooli();
     }
-
 }

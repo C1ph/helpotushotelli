@@ -34,8 +34,10 @@ public class KayttajaTest {
     }
     
     @Before
-    public void setUp() {
+    public void setUp() {  
         arpoja = new Arpoja();
+        kayttaja = new Kayttaja("ipi", "rumils", "pasunisti");
+        
     }
     
     @After
@@ -43,23 +45,21 @@ public class KayttajaTest {
     }
 
     @Test
-    public void konstruktoriAsettaaKayttajanOikein() { // build ei valmis
-        Kayttaja mealy = new Kayttaja();
+    public void konstruktoriAsettaaKayttajanOikein() {
         String vastaus = kayttaja.getKayttajaTunnus(); 
-        assertEquals("mealy", vastaus.toString());
-    }
-       
-    @Test
-    public void konstruktoriAsettaaSalasananOikein() { // build ei valmis
-        String salasana = "ananastenmaa";
-        String vastaus = kayttaja.getSalasana(); 
-        assertEquals("ananastenmaa", vastaus.toString());
+        assertEquals("ipi", vastaus);
     }
     
     @Test
-    public void konstruktoriAsettaaRoolinOikein() { // build ei valmis
-        String rooli = "OPISKELIJA";
+    public void konstruktoriAsettaaSalasananOikein() {
+        String vastaus = kayttaja.getSalasana(); 
+        assertEquals("rumils", vastaus);
+    }
+    
+    @Test
+    public void konstruktoriAsettaaRoolinOikein() {
+        String rooli = "pasunisti";
         String vastaus = kayttaja.getRooli(); 
-        assertEquals("OPISKELIJA", vastaus.toString());
+        assertEquals("pasunisti", vastaus);
     }
 }
