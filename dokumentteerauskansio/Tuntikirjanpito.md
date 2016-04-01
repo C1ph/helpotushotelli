@@ -9,3 +9,5 @@
 | 23.3.2016 | 4 h | Edellinen viikko: Maven konfiguroitu. Kansiorakenne ok. Aihe ok. Tuntikirjanpito ok. Ohjelmalogiikan suunnittelu aloitettu: Arpoja-luokan luonti, aiheiden määrittely, aiheiden ArrayListin luonti, metodisuunnittelu, JUnit-testien konfigurointi
 | 24.3.2016 | 4 h | PIT-raportin ja Checkstyle-raportin generointi aloitettu, alustava luokkakaavio tehty
 | 29.3.2016 | 4 h | Testien lisäys, käyttöliittymän luonti ja käyttäjäluokan luonti logiikkapakkaukseen
+| 31.3.2016 | 4 h | Logiikan parantelua, lisää testejä, main-luokan alustus, debuggaus(yrityksiä)
+| 1.4.2016  | 4 h | Pitin ja Checkstylen uudelleenkonfigurointi(yritys), mutanttienlöytö-sekä-tappopuuhia, käytännössä testien ajamista ja päivitystä
