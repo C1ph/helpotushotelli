@@ -23,3 +23,5 @@ Toteutetaan ohjelma, joka arpoo opiskelijalle sopivan aiheen ohjelmoinnin harjoi
 * aiheiden poisto
 * kirjanpito opiskelijoiden edistymisestä
 * hyväksymismerkinnän antaminen
+
+![Alt text](C:\Users\omistaja\helpotushotelli\dokumentteerauskansio\UML_kaavio.png)

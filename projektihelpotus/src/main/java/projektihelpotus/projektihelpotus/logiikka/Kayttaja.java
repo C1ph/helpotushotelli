@@ -26,7 +26,6 @@ public class Kayttaja {
         this.salasana = salasana;
         this.rooli = rooli;
     }
- 
 
     
     public enum Rooli {

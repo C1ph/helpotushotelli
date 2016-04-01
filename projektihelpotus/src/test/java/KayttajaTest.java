@@ -62,4 +62,12 @@ public class KayttajaTest {
         String vastaus = kayttaja.getRooli();
         assertEquals("pasunisti", vastaus);
     }
+    
+    @Test
+    public void uusiKayttaja() { // muutettava
+        Kayttaja maala = new Kayttaja("määlä", "pihvinuija", "moukarinheittäjä");
+        String uusi = kayttaja.getRooli();
+        assertEquals("määlä", uusi);
+    }
+    
 }

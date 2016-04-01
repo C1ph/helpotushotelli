@@ -21,6 +21,11 @@ public class Arpoja {
         this.aihe = "";
     }
 
+    public String getAihe() {
+        String aihe = "";
+        return aihe;
+    }
+    
     public void arvo() {
         Random arpoja = new Random();
         ArrayList<String> aiheet = new ArrayList<>();
@@ -28,9 +33,9 @@ public class Arpoja {
 
         int i = arpoja.nextInt(aiheet.size());
         this.aihe = aiheet.get(i);
-        System.out.println(aihe);
+        System.out.println("Kohtalosi on: " + aihe);
+
     }
 }
 
-//            String lopullinenAihe = "aihe"; // tänne tehtailen parhaillaan itse arvontamekanismia
 

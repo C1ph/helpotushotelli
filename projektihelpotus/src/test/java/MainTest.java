@@ -10,12 +10,19 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import projektihelpotus.projektihelpotus.logiikka.Aihe;
+import projektihelpotus.projektihelpotus.logiikka.Arpoja;
+import projektihelpotus.projektihelpotus.logiikka.Kayttaja;
 
 /**
  *
  * @author omistaja
  */
 public class MainTest {
+    
+    Arpoja arpoja;
+    Aihe aihe;
+    Kayttaja kayttaja;
 
     public MainTest() {
     }
@@ -30,10 +37,18 @@ public class MainTest {
 
     @Before
     public void setUp() {
+        arpoja = new Arpoja();
+        aihe = new Aihe();
     }
 
     @After
     public void tearDown() {
     }
 
+    @Test
+    public void arvontaMekanismiToimiiOikein () {
+        String aihe = "";
+        arpoja.arvo();
+        assertEquals("", aihe);
+    }
 }
