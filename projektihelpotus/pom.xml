@@ -67,12 +67,14 @@
                 <version>1.1.8</version>
                 <configuration>
                     <targetClasses>
-                        <param>projektihelpotus.projektihelpotus.*</param>
-                        <param>projektihelpotus.projektihelpotus.*</param>
+                        <param>projektihelpotus.projektihelpotus.logiikka.*</param>
+                        <param>projektihelpotus.projektihelpotus.kayttoliittyma.*</param>
+                        <param>projektihelpotus.projektihelpotus.main.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>projektihelpotus.projektihelpotus.*</param>
-                        <param>projektihelpotus.projektihelpotus.*</param>
+                        <param>projektihelpotus.projektihelpotus.logiikka.*</param>
+                        <param>projektihelpotus.projektihelpotus.kayttoliittyma.*</param>
+                        <param>projektihelpotus.projektihelpotus.main.*</param>
                     </targetTests>
                 </configuration>
             </plugin>
