@@ -11,3 +11,6 @@
 | 29.3.2016 | 4 h | Testien lisäys, käyttöliittymän luonti ja käyttäjäluokan luonti logiikkapakkaukseen
 | 31.3.2016 | 4 h | Logiikan parantelua, lisää testejä, main-luokan alustus, debuggaus(yrityksiä)
 | 1.4.2016  | 4 h | Pitin ja Checkstylen uudelleenkonfigurointi(yritys), mutanttienlöytö-sekä-tappopuuhia, käytännössä testien ajamista ja päivitystä
+| 6.4.2016  | 4 h | Luokkakaavion päivitys (draw.io), toiminnallisuuden pähkäilyä, käyttöliittymän suunnittelua
+| 13.4.2016 | 4 h | Katselmointiin liittyvän projektin zippaus, toiminnallisuuden hahmotus ja testien ajaminen
+| 15.4.2016 | 4 h | Luokkakaavion päivitystä, ohjelman toiminnallisuuden laajentamista (logiikka pääpiirteittäin valmiiksi, sitten käyttöliittymän kimppuun), uusien pit- ja checkstyle -raporttien generointi, issuen submittaus
