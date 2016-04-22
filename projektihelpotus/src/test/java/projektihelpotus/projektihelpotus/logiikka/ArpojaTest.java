@@ -40,13 +40,21 @@ public class ArpojaTest {
 
     @Before
     public void setUp() {
-        Aihe aihe = new Aihe();
+        aihe = new Aihe("testiaihe");
+        arpoja = new Arpoja();
     }
 
     @After
     public void tearDown() {
     }
 
+    @Test
+    public void arvontaMekanismiToimiiOikein () {
+        arpoja.lisaa(aihe);
+        arpoja.arvo();
+        assertEquals(aihe, arpoja.arvo());
+    }
+    
     @Test
     public void uudenAiheListanKokoAnnetaanOikein() {
         ArrayList<String> aiheet = new ArrayList<>();
@@ -55,29 +63,15 @@ public class ArpojaTest {
     
     @Test
     public void uusiAiheLisataanListaanOikein() {
-        ArrayList<String> aiheet = new ArrayList<>();
-        aiheet.add("Mehiläistenhoito");
-        assertEquals(1, aiheet.size());
+        arpoja.lisaa(aihe);
+        assertTrue(arpoja.getAiheet().contains(aihe));
     }
     
     @Test
-    public void aihePoistetaanOikein() {
-        ArrayList<String> aiheet = new ArrayList<>();
-        aiheet.add("Mehiläistenhoito");
-        aiheet.remove("Mehiläistenhoito");
-        assertEquals(0, aiheet.size());
+    public void uusiAihePoistetaanListaltaOikein() {
+        arpoja.lisaa(aihe);
+        arpoja.poista(aihe);
+        assertFalse(arpoja.getAiheet().contains(aihe));
     }
     
-    @Test
-    public void konstruktoriAsettaaAiheenOikein() {
-        String vastaus = arpoja.getAihe();
-        assertEquals("", vastaus);
-    }
-    
-    @Test
-    public void uusiArpoja() {
-        Arpoja arpoja = new Arpoja();
-        assertEquals("", arpoja);
-        
-    }
 }

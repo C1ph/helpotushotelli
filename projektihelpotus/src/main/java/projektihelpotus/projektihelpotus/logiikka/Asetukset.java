@@ -9,6 +9,9 @@ package projektihelpotus.projektihelpotus.logiikka;
  *
  * @author omistaja
  */
+
+// Tähän luokkaan tulee ohjelman asetukset
+
 public class Asetukset {
     
     private static final Asetukset asetus = new Asetukset();
