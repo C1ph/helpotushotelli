@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
+package projektihelpotus.projektihelpotus.main;
 
 import projektihelpotus.projektihelpotus.logiikka.Arpoja;
 
@@ -11,6 +11,9 @@ import projektihelpotus.projektihelpotus.logiikka.Arpoja;
  *
  * @author omistaja
  */
+
+// Pääohjelma
+
 public class Main {
 
     /**

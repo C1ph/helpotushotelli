@@ -9,17 +9,44 @@ package projektihelpotus.projektihelpotus.logiikka;
  *
  * @author omistaja
  */
+
+// Aihe-luokka tukee mm. luokkia Tiedostonlukija ja Vaikeusaste
+
 import java.util.*;
 
 public class Aihe {
 
     private String aihe;
     
-    public Aihe () {
+    public Aihe (String aihe) {
         this.aihe = aihe;
     }
 
     public String getAihe() {
         return aihe;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 53 * hash + Objects.hashCode(this.aihe);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Aihe other = (Aihe) obj;
+        if (!Objects.equals(this.aihe, other.aihe)) {
+            return false;
+        }
+        return true;
+    }
+    
+    
 }

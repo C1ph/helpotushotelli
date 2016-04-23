@@ -7,6 +7,7 @@
             <goal>org.pitest:pitest-maven:mutationCoverage</goal>
         </goals>
     </action>
+<<<<<<< HEAD
     <action>
         <actionName>CUSTOM-Javadoc</actionName>
         <displayName>Javadoc</displayName>
@@ -17,6 +18,8 @@
 </actions>
 
 <actions> 
+=======
+>>>>>>> 5ca772d73d783b1d208078f5f0cbf32697861e17
     <action>
         <actionName>CUSTOM-checkstyle</actionName>
         <displayName>Checkstyle</displayName>

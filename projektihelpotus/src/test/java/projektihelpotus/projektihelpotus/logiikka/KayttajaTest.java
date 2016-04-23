@@ -66,10 +66,10 @@ public class KayttajaTest {
     }
     
     @Test
-    public void uusiKayttaja() { // muutettava
-        Kayttaja maala = new Kayttaja("määlä", "pihvinuija", "moukarinheittäjä");
+    public void uudenKayttajanRooliAsetetaanOikein() { // muutettava
+        kayttaja = new Kayttaja("määlä", "pihvinuija", "moukarinheittäjä");
         String uusi = kayttaja.getRooli();
-        assertEquals("määlä", uusi);
+        assertEquals("moukarinheittäjä", uusi);
     }
     
 }

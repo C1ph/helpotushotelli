@@ -9,6 +9,9 @@ package projektihelpotus.projektihelpotus.logiikka;
  *
  * @author omistaja
  */
+
+// Käyttäjä-luokka määrittelee käyttäjän ja hänen roolinsa
+
 public class Kayttaja {
 
     private String tunnus;

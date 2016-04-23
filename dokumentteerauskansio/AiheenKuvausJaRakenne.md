@@ -24,4 +24,4 @@ Toteutetaan ohjelma, joka arpoo opiskelijalle sopivan aiheen ohjelmoinnin harjoi
 * kirjanpito opiskelijoiden edistymisestä
 * hyväksymismerkinnän antaminen
 
-![Alt text](C:/Users/omistaja/helpotushotelli/dokumentteerauskansio/UML_kaavio.png)
+![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/Uusi_luokkakaavio.png)
