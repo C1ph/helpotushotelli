@@ -16,3 +16,4 @@
 | 15.4.2016 | 4 h | Luokkakaavion päivitystä, ohjelman toiminnallisuuden laajentamista (logiikka pääpiirteittäin valmiiksi, sitten käyttöliittymän kimppuun), uusien pit- ja checkstyle -raporttien generointi, issuen submittaus
 | 22.4.2016 | 4 h | Uusien luokkien muodostus (mm. tiedostonlukija), testit ajan tasalle, hashCode sekä getterit ja setterit kohdilleen, javaDoc-touhuilua luokille, arpojan toiminnallisuus laitettu viittaamaan ArrayListiin, metodit ArrayListille pääosin luotu, sekvenssikaavion luonnostelua
 | 23.4.2016 | 4 h | Sekvenssikaavio ja luokkakaavio lopullisina versioina valmiiksi, tiedostonlukijan alustus, lisää testien luomista, uudet pitit sekä checkstyle, dokumentaation ajankohtaistus-operaatio
+| 26.4.2016 | 4 h | Vaikeusasteiden initialisointi, käyttöliittymän päivitys, testien alustus tiedostonlukijalle ja vaikeuasteille
