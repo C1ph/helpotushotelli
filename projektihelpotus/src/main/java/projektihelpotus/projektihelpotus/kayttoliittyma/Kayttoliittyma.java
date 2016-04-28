@@ -94,6 +94,10 @@ class Kayttoliittyma {
         }
         return uusiAiheLista;
     }
+    
+    public ArrayList getAiheet(ArrayList aiheLista) {
+        return aiheLista;
+    }
 
     public JFrame getFrame(JFrame frame) {
         return frame;
