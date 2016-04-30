@@ -21,6 +21,7 @@ import projektihelpotus.projektihelpotus.logiikka.Arpoja;
  * and open the template in the editor.
  */
 /**
+ * Käyttöliittymä aiheenarpojalle.
  *
  * @author omistaja
  */
@@ -30,7 +31,7 @@ class Kayttoliittyma {
     private Arpoja arpoja;
     private ArrayList aiheLista;
 
-    public Kayttoliittyma(Scanner lukija) throws FileNotFoundException {
+    public Kayttoliittyma(Scanner lukija) throws FileNotFoundException { //konstruktori
         this.lukija = lukija;
     }
 
@@ -49,7 +50,7 @@ class Kayttoliittyma {
             }
         }
     }
-    
+
     public void run() {
         JFrame frame = new JFrame("Aihelistaus");
         frame.setPreferredSize(new Dimension(1000, 500));
@@ -62,7 +63,8 @@ class Kayttoliittyma {
         GridLayout layout = new GridLayout(2, 1);
         container.setLayout(layout);
         JPanel aiheLista = luoAiheLista();
-        Component aiheListaus = new Component() {};
+        Component aiheListaus = new Component() {
+        };
         JScrollPane scrolleriAiheille = new JScrollPane(aiheListaus);
         container.add(luoValikko());
     }
@@ -87,15 +89,15 @@ class Kayttoliittyma {
         JPanel uusiAiheLista = new JPanel();
         uusiAiheLista.setLayout(new BoxLayout(uusiAiheLista, BoxLayout.Y_AXIS));
         uusiAiheLista.add(new JLabel("Aiheet: "));
-        for (int i = 0; i < aiheLista.getAiheet().size(); i++) {
-            String aihe = aiheLista.getAiheet().get(i).getNimi();
+        for (int i = 0; i < aiheLista.size(); i++) {
+            String aihe = (String) aiheLista.get(i);
             JButton aiheNappi = new JButton(aihe);
             uusiAiheLista.add(aiheNappi);
         }
         return uusiAiheLista;
     }
-    
-    public ArrayList getAiheet(ArrayList aiheLista) {
+
+    public ArrayList getNimi(ArrayList aiheLista) {
         return aiheLista;
     }
 
