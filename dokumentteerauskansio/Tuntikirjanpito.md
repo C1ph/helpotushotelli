@@ -1,5 +1,4 @@
 ### Tuntikirjanpito
-<<<<<<< HEAD
 
 =======
 | Päivä        | Tunnit           | Kuvaus  |
@@ -17,3 +16,10 @@
 | 22.4.2016 | 4 h | Uusien luokkien muodostus (mm. tiedostonlukija), testit ajan tasalle, hashCode sekä getterit ja setterit kohdilleen, javaDoc-touhuilua luokille, arpojan toiminnallisuus laitettu viittaamaan ArrayListiin, metodit ArrayListille pääosin luotu, sekvenssikaavion luonnostelua
 | 23.4.2016 | 4 h | Sekvenssikaavio ja luokkakaavio lopullisina versioina valmiiksi, tiedostonlukijan alustus, lisää testien luomista, uudet pitit sekä checkstyle, dokumentaation ajankohtaistus-operaatio
 | 26.4.2016 | 4 h | Vaikeusasteiden initialisointi, käyttöliittymän päivitys, testien alustus tiedostonlukijalle ja vaikeuasteille
+| 29.4.2016 | 4 h | Käyttöliittymän testien luomiskokeiluja sekä jar-kokeiluja, javadocin ylläpitoa, sekvenssikaavioiden päivitys
+| 3.5.2016  | 4 h | Käyttöohjeiden laatiminen, sovellustason testauksen raportin kirjoittaminen, graafisen käyttöliittymänluontiyrityksiä
+| 4.5.2016  | 4 h | Lisää GUI-suunnittelua, JFrame-kertausta sekä käyttöliittymän jatkamista
+| 5.5.2016  | 4 h | Vikasietoisuustestausta
+| 6.5.2016  | 4 h | jar:in luontiyrityksiä, käyttöliittymän koodin jatkoa, GUI-yrittämistä
+| 7.5.2016  | 4 h | Uudet pit- ja checkstyle-raportit (jotka antoivat aihetta korjauksiin)
+| 8.5.2016  | 4 h | Tuntikirjanpidon päivitys, kaavioiden pushaus, testien ajankohtaistaminen, jar-yritys, javadocit, testausdokumentaatio
