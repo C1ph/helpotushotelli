@@ -1,0 +1,5 @@
+Ohjelmassa on kuusi toiminnallisuudesta vastaavaa luokkaa. Päänäkymä sisältää tervehdyksen aiheenarpojaan sekä napit joita painamalla voi kirjautua, arpoa aiheen, lisätä oman aiheen tai muokata sekä poistaa aiheen riippuen siitä, minkä tyyppinen käyttäjä on kirjautuneena.
+
+Aihetta arpoessa ohjelma ottaa käyttäjän i) valitsemat aiheet tiedostonlukijan avulla erillisestä tekstitiedostosta tai ii) arpoo valmiina olevasta ArrayListista aiheen käyttäjälle. Ohjelma käy läpi kaikki tallennetut aiheet. Arpoja valitsee ohjelman muistamista tai löytämistä aiheista satunnaisesti yhden aiheen, ja tulostaa sen käyttäjälle. Aiheen voi myös arpoa uudestaan. Aiheiden listauksessa jokainen aihe indeksoidaan (0, 1, 2 jne.) ja niiden nimet voidaan lukea tiedostosta. Käyttöliittymänäkymässä näkyy lopuksi aiheen nimi.
+
+Aihetta lisättäessä pyydetään käyttäjältä aiheen nimi sekä sen vaikeusaste. Jos jompi kumpi puuttuu, ohjelma tulostaa virheilmoituksen. Aiheenarpojaa käytetään Arpoja-luokan avulla, joka TiedostonLukijan avulla lukee ulkoa tulevien aihelistatiedostojen tiedot ja lisää ne oliomuuttujiin.
