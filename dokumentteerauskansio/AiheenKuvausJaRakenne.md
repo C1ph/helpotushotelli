@@ -24,4 +24,8 @@ Toteutetaan ohjelma, joka arpoo opiskelijalle sopivan aiheen ohjelmoinnin harjoi
 * kirjanpito opiskelijoiden edistymisestä
 * hyväksymismerkinnän antaminen
 
+Luokkakaavio:
 ![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/Uusi_luokkakaavio.png)
+
+Sekvenssikaavio yleisille käyttötapauksille:
+![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/sekvenssikaavio1.png)
