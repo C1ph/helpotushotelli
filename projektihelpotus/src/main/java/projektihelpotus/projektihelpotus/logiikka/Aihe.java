@@ -10,10 +10,12 @@ package projektihelpotus.projektihelpotus.logiikka;
  * @author omistaja
  */
 
-// Aihe-luokka tukee mm. luokkia Tiedostonlukija ja Vaikeusaste
 
 import java.util.*;
-
+/**
+ * Aihe-luokka tukee mm. luokkia Tiedostonlukija ja Vaikeusaste
+ *
+ */
 public class Aihe {
 
     private String aihe;

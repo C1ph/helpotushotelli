@@ -9,7 +9,10 @@ package projektihelpotus.projektihelpotus.logiikka;
  *
  * @author annettek
  */
-// lukee tiedoston ja hakee aiheet
+
+/**
+ * Tiedostonlukija lukee tiedoston ja hakee aiheet.
+ */
 
 import java.io.File;
 import java.io.FileNotFoundException;

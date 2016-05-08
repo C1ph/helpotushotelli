@@ -31,11 +31,16 @@ public class Kayttoliittyma {
     private Arpoja arpoja;
     private ArrayList aiheLista;
 
-    public Kayttoliittyma() throws FileNotFoundException { //konstruktori
+    
+ /**
+ * Konstruktori
+ *
+ */
+    public Kayttoliittyma() throws FileNotFoundException {
         Scanner lukija = new Scanner(System.in);
         this.lukija = lukija;
     }
-
+    
     public void kaynnista() {
         System.out.println("Tervetuloa aiheenarpojaan!");
 
@@ -52,6 +57,7 @@ public class Kayttoliittyma {
         }
     }
 
+    
     public void run() {
         JFrame frame = new JFrame("Aihelistaus");
         frame.setPreferredSize(new Dimension(1000, 500));
