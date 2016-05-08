@@ -38,5 +38,4 @@ public class AiheTest {
     public void tearDown() {
     }
 
-    // ja vielä lisää
 }

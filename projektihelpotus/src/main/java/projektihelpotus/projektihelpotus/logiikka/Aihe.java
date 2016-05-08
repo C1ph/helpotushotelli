@@ -46,7 +46,6 @@ public class Aihe {
             return false;
         }
         return true;
-    }
-    
+    }    
     
 }
