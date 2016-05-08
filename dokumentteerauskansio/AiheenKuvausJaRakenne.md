@@ -31,3 +31,8 @@ Luokkakaavio:
 Sekvenssikaavio yleisille käyttötapauksille:
 
 ![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/sekvenssikaavio1.png)
+
+Sekvenssikaavio opiskelijan käyttötapauksille:
+
+![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/sekvenssikaavio2.png)
+
