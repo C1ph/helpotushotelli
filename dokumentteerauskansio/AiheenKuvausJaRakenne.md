@@ -36,3 +36,6 @@ Sekvenssikaavio opiskelijan käyttötapauksille:
 
 ![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/sekvenssikaavio2.png)
 
+Sekvenssikaavio ylläpitäjän käyttötapauksille:
+
+![Alt text](https://github.com/annettekemppi/helpotushotelli/blob/master/dokumentteerauskansio/sekvenssikaavio3.png)
