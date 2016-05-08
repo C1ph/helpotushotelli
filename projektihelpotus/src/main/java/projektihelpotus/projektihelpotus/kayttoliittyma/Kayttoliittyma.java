@@ -25,13 +25,14 @@ import projektihelpotus.projektihelpotus.logiikka.Arpoja;
  *
  * @author omistaja
  */
-class Kayttoliittyma {
+public class Kayttoliittyma {
 
     private Scanner lukija;
     private Arpoja arpoja;
     private ArrayList aiheLista;
 
-    public Kayttoliittyma(Scanner lukija) throws FileNotFoundException { //konstruktori
+    public Kayttoliittyma() throws FileNotFoundException { //konstruktori
+        Scanner lukija = new Scanner(System.in);
         this.lukija = lukija;
     }
 
@@ -59,7 +60,7 @@ class Kayttoliittyma {
         frame.setVisible(true);
     }
 
-    private void luoKomponentit(Container container) {
+    public void luoKomponentit(Container container) {
         GridLayout layout = new GridLayout(2, 1);
         container.setLayout(layout);
         JPanel aiheLista = luoAiheLista();
@@ -101,7 +102,8 @@ class Kayttoliittyma {
         return aiheLista;
     }
 
-    public JFrame getFrame(JFrame frame) {
+    JFrame getFrame(JFrame frame) {
         return frame;
     }
+
 }
