@@ -37,9 +37,21 @@ public class VaikeusasteTest {
     public void tearDown() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    @Test
+    public void asetetaanOikeinHelppo() {
+        aihe.asetaHelppo();
+        assertEquals(Vaikeusaste.helppo, aihe.asetaVaikeustaso(0));
+    }
+
+    @Test
+    public void asetetaanOikeinKeskivaikea() {
+        aihe.asetaKeskivaikea();
+        assertEquals(Vaikeusaste.keskivaikea, aihe.asetaVaikeustaso(1));
+    }
+
+    @Test
+    public void asetetaanOikeinVaikea() {
+        aihe.asetaVaikea();
+        assertEquals(Vaikeusaste.vaikea, aihe.asetaVaikeustaso(2));
+    }
 }

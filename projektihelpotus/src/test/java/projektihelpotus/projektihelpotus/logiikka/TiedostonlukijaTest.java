@@ -41,4 +41,11 @@ public class TiedostonlukijaTest {
     @After
     public void tearDown() {
     }
+    
+    public void eiTulostaOlematonta(String teksti) {
+        String teksti = this.tulostaTiedosto("src/test/minuaeioleolemassa.txt");
+        assertEquals(null, teksti);
+    }
+    
+    
 }

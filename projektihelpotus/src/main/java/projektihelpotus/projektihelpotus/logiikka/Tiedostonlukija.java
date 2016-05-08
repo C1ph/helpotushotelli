@@ -20,9 +20,6 @@ import java.util.*;
 
 public class Tiedostonlukija {
     
-    public Tiedostonlukija() {
-
-    }
 
     /**
      *
