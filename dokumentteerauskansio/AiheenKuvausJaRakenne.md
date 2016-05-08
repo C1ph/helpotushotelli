@@ -21,7 +21,6 @@ Toteutetaan ohjelma, joka arpoo opiskelijalle sopivan aiheen ohjelmoinnin harjoi
 * järjestelmän ylläpito
 * uusien aiheiden lisäys
 * aiheiden poisto
-* hyväksymismerkinnän antaminen
 
 Luokkakaavio:
 
